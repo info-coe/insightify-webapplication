@@ -1,0 +1,385 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  font-family: 'Poppins';
+  overflow-y: scroll;
+}
+
+.loginmaindiv {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/loginbackimg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.loginform {
+  width: 50%;
+  height: 100vh;
+  background-color: #FEF7FF;
+  padding-left: 10px;
+}
+
+.loginform #head {
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 75px;
+  color: #65558F;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.loginform #subhead {
+  width: 515px;
+  height: 120px;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 50px;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  /* gap: 30px; */
+}
+
+#formdiv {
+  padding: 10px 20px 10px 20px;
+}
+
+.input-field {
+  position: relative;
+  margin-bottom: 25px;
+  border-radius: 80px;
+}
+
+.input-field input {
+  width: calc(100% - 22px);
+  padding: 12px 0px 12px 20px;
+  gap: 30px;
+  border: none;
+  outline: none;
+  border-radius: 80px;
+  border: 1px solid #65558F;
+  background: none;
+  font-size: 18px;
+}
+
+.input-field label {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  padding: 0 5px;
+  color: #999;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input-field input:focus+label,
+.input-field input:valid+label {
+  top: -10px;
+  left: 30px;
+  font-size: 12px;
+  color: #333;
+  background: #FEF7FF;
+  padding: 0 5px;
+}
+
+.loginform #loginBtn {
+  width: calc(100% - 22px);
+  padding: 14px 0px 14px 0px;
+  gap: 30px;
+  border: none;
+  outline: none;
+  border-radius: 80px;
+  background: #65558F;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+#headmain{
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 75px;
+  color: #65558F;
+  padding: 10px 20px 10px 20px;
+}
+#ordersheadmain{
+  font-size: 28px;
+  font-weight: bolder;
+  line-height: 55px;
+  color: #65558F;
+  padding: 10px;
+}
+
+#homehead {
+  background-color: #F7F2FA;
+}
+
+.homemain {
+  width: 100%;
+  height: 400px;
+  padding: 15px 30px 15px 30px;
+  gap: 20px;
+}
+
+.leftdiv {
+  background-image: url(./images/homeimg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.rightdiv {
+  padding: 20px 10px 20px 10px;
+  gap: 20px;
+}
+
+.rightdiv h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #000000;
+}
+
+.rightdiv p {
+  max-width: 656px;
+  font-size: 23px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #1D1B2099;
+}
+
+.homebtndiv {
+  height: 100px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.ordersbtn {
+  background-color: #EADDFF;
+  color: #21005D;
+  border-radius: 60px;
+  border: none;
+  padding: 10px;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: center;
+  align-items: center;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contactbtn {
+  text-align: center;
+  height: 60px;
+  padding: 10px;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 37.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.aboutImage{
+  padding: 30px;
+  font-weight: bold;
+}
+
+.faqmaindiv {
+  width: 100%;
+  min-height: 350px;
+  height: auto;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 50px;
+}
+
+.faqdiv {
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+  border-radius: 20px;
+  padding: 30px;
+  gap: 20px;
+  background-color: #ECE6F0;
+}
+
+.faqdiv h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: "#000000";
+  line-height: 52.5px;
+  letter-spacing: 0.1px;
+
+}
+
+#orderhead {
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  gap: 10px;
+  background-color: #F7F2FA;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #1D1B20;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orders {
+  margin: 20px 60px 20px 60px;
+}
+
+.homediv {
+  margin: 20px 30px 20px 30px;
+  background-image: url("./images/billing-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 15px;
+}
+
+.chefdiv {
+  background-image: url("./images/chef-banner.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 15px;
+}
+
+.chefText,
+.homeText {
+  padding: 60px 50px 60px 50px;
+  border-radius: 15px;
+  background: linear-gradient(to left, #ffffff28, #1f1f1fc4);
+}
+
+.chefPara,
+.homePara {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.penFinishBtn{
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  text-align:center;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  background-color: #65558F;
+  color: #fffefe;
+}
+.chefFinishBtn {
+  margin: 5px 5px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 600;
+  border: none;
+  background-color: #ECE6F0;
+  color: #B3261E;
+}
+
+.Parent {
+  width: 100%;
+    padding: 7px;
+    border-radius:20px;
+    gap: 30px;
+    
+}
+.chefAccepthBtn {
+  margin: 5px 5px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background: #65558F;
+  color: #FFFFFF;
+}
+
+.pendingdiv {
+  padding: 30px 0px 23px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.pendingdiv #pending,
+.pendingdiv #seemore {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #000000;
+}
+
+.ordershistory {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order1 {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #F9DEDC;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.order1 p{
+  padding-top: 10px;
+}
+
+.order2 {
+  width: 100%;
+  height: auto;
+  min-height:269px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: #ECE6F0;
+}
+
+.order2Main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F7F2FA;
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.faqmaindiv .accordion {
+  --bs-accordion-btn-bg: rgb(233, 236, 229);
+  --bs-accordion-btn-color: #100f10;
+  --bs-accordion-active-bg: rgb(246, 250, 241);
+  --bs-accordion-active-color: #100f10;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-border-color: none;
+}
