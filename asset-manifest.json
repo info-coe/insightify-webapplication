@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/insightify-webapplication/static/css/main.1cf24aad.css",
+    "main.js": "/insightify-webapplication/static/js/main.d320c011.js",
+    "static/media/billing-banner.png": "/insightify-webapplication/static/media/billing-banner.3503db368656a2152681.png",
+    "static/media/homeimg.jpeg": "/insightify-webapplication/static/media/homeimg.afd1adae51389b40cc13.jpeg",
+    "static/media/loginbackimg.jpeg": "/insightify-webapplication/static/media/loginbackimg.42af1870e8eee4d294f8.jpeg",
+    "static/media/chef-banner.jfif": "/insightify-webapplication/static/media/chef-banner.93cd856031e5d4573215.jfif",
+    "static/media/Frame12.png": "/insightify-webapplication/static/media/Frame12.8b9329c682df6c8f324c.png",
+    "index.html": "/insightify-webapplication/index.html",
+    "main.1cf24aad.css.map": "/insightify-webapplication/static/css/main.1cf24aad.css.map",
+    "main.d320c011.js.map": "/insightify-webapplication/static/js/main.d320c011.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cf24aad.css",
+    "static/js/main.d320c011.js"
+  ]
+}
